@@ -1,0 +1,14 @@
+
+public class A {
+
+    //Static Member
+    public static int staticCount = 0;
+
+    //Instance Member
+    public int instanceCount = 0;
+
+    public A() {
+        staticCount++;
+        this.instanceCount++;
+    }
+}

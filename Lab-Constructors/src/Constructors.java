@@ -1,0 +1,19 @@
+
+public class Constructors {
+
+    public Constructors(){
+        System.out.println("The default constructor ran.");
+    }
+
+    public Constructors(int value){
+        System.out.println(value);
+    }
+
+    public static void main(String[] args) {
+        //Create instances here.
+        Constructors c = new Constructors(5839);
+
+        //Use the no-arg constructor.
+        Constructors cNoArg = new Constructors();
+    }
+}
